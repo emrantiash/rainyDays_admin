@@ -1,0 +1,32 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start -p 3005",
+    "lint": "next lint",
+    "prod": "next export"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.19.4",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.5.1",
+    "cookie-cutter": "^0.2.0",
+    "crypto-js": "^4.1.1",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.13",
+    "next": "^13.4.13",
+    "primereact": "^10.0.5",
+    "react": "18.2.0",
+    "react-barcode-reader": "^0.0.2",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "react-redux": "^8.1.2",
+    "redux-persist": "^6.0.0",
+    "reduxjs-toolkit-persist": "^7.2.1",
+    "sharp": "^0.33.1",
+    "swr": "^2.2.4"
+  }
+}
